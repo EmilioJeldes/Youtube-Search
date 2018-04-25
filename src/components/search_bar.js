@@ -9,14 +9,27 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="search-bar">
         <input
-          onChange={event => this.setState({ term: event.target.value })}
+					autoFocus
+          onChange={event => this.onInputChange(event.target.value)}
+          onKeyPress={event => this.onKeyPress(event.key)}
           type="text"
           value={this.state.term}
         />
       </div>
     );
+  }
+
+  onInputChange(term) {
+    this.setState({ term });
+  }
+
+  onKeyPress(key) {
+    if (key == 'Enter') {
+      this.props.onSearchTermChange(this.state.term);
+      this.setState({ term: '' });
+    }
   }
 }
 

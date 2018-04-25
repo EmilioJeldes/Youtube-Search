@@ -1,6 +1,6 @@
 # Basic React App using youtube search api
 Simple react test app using youtube seach api.
->**Note:** to be able to run this app you must have [Node.js](https://nodejs.org/es/) and [Git](https://git-scm.com/) installed on your machine
+>**Note:** to be able to run this app you must have [Node.js](https://nodejs.org/es/) (and [Git](https://git-scm.com/) if you want to clone it) installed on your machine
 
 ### How to install
 ```
