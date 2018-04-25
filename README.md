@@ -12,7 +12,7 @@ cd youtube-search
 npm install
 npm start
 ```
-### Visit [http://localhost:8080](http://localhost:8080) on the browser or via terminal
+### Visit `http://localhost:8080` on the browser or via terminal
 ```
 start chrome "http://localhost:8080"
 ```
