@@ -1,5 +1,5 @@
 # Basic React App using youtube search api
-## Simple react test app using youtube seach api.
+#### Simple react test app using youtube seach api.
 ### How to install
 ```
 git clone https://github.com/EmilioJeldes/youtube-search.git
